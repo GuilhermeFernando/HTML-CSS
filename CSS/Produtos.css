@@ -45,7 +45,12 @@ nav a
     display: inline-block;
     text-align: center;
     width: 30%;
-    vertical-align: top;
+    vertical-align: top;    
+    margin: 0 1.5%;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    
 }
 
 .produtos h2
@@ -57,10 +62,12 @@ nav a
 .produto-descricao
 {
     font-size: 18px;
+    padding: 30px 20px;
 }
 
 .produto-preco
 {
     font-size: 22px;
     font-weight: bold;
+    margin-top: 10px;
 }
